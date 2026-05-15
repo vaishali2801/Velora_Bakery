@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Velora — Cultivated baking artistry. Handcrafted pastries, signature cakes, and artisan breads delivered with love." />
+  <title>Velora — Cultivated Baking Artistry</title>
+  <link rel="icon" type="image/jpg" href="./assets/images/vlogo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">Velora</a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#categories">Lounges</a>
+        <a href="#gallery">Breads</a>
+        <a href="#bestsellers">Cakes</a>
+      </nav>
+      <a href="#offer" class="btn btn-ghost nav-cta">Order Now</a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero-bg-particles" aria-hidden="true">
+      <span class="particle p1"></span>
+      <span class="particle p2"></span>
+      <span class="particle p3"></span>
+      <span class="particle p4"></span>
+      <span class="particle p5"></span>
+    </div>
+    <div class="container hero-grid">
+      <div class="hero-text reveal">
+        <span class="eyebrow">Artisan Bakery · Est. 2014</span>
+        <h1 class="display">Cultivated <em>Baking</em> Artistry</h1>
+        <p class="lead">
+          Experience the finest pastries and cakes, crafted slowly with passion,
+          heritage flour, and the freshest seasonal ingredients.
+        </p>
+        <div class="hero-cta">
+          <a href="#bestsellers" class="btn btn-primary">Explore Menu</a>
+          <a href="#story" class="btn btn-link">Our story →</a>
+        </div>
+        <div class="hero-meta">
+          <div><strong>10+</strong><span>Years of craft</span></div>
+          <div><strong>4.9★</strong><span>1,200+ reviews</span></div>
+          <div><strong>100%</strong><span>Handmade daily</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-glow"></div>
+        <img src="assets/images/hero-stack.png" alt="Stacked pastries with macarons and raspberries" class="hero-image float-slow" />
+        <img src="assets/images/hero-stack.png" alt="" aria-hidden="true" class="hero-floater f1" />
+      </div>
+    </div>
+    <div class="wave wave-bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,64 C240,120 480,0 720,40 C960,80 1200,120 1440,60 L1440,120 L0,120 Z"/></svg>
+    </div>
+  </section>
+
+  <!-- ============ CATEGORIES ============ -->
+  <section class="section categories" id="categories">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Our Lounges</span>
+        <h2>Three crafts. One obsession.</h2>
+      </div>
+      <div class="cat-grid">
+        <article class="cat-card reveal">
+          <div class="cat-icon">🥐</div>
+          <h3>Artisan Pastries</h3>
+          <p>Buttery, flaky, gold. Laminated by hand each dawn.</p>
+          <div class="cat-actions">
+            <a class="btn btn-soft" href="#bestsellers">Shop</a>
+            <a class="btn btn-link sm" href="#story">Discover →</a>
+          </div>
+        </article>
+        <article class="cat-card featured reveal">
+          <div class="cat-icon">🎂</div>
+          <h3>Signature Cakes</h3>
+          <p>Layered celebrations made for every quiet milestone.</p>
+          <div class="cat-actions">
+            <a class="btn btn-soft" href="#bestsellers">Shop</a>
+            <a class="btn btn-link sm" href="#story">Discover →</a>
+          </div>
+        </article>
+        <article class="cat-card reveal">
+          <div class="cat-icon">🍞</div>
+          <h3>Handcrafted Breads</h3>
+          <p>Slow-fermented sourdough, baguettes &amp; rye loaves.</p>
+          <div class="cat-actions">
+            <a class="btn btn-soft" href="#gallery">Shop</a>
+            <a class="btn btn-link sm" href="#story">Discover →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BEST SELLERS ============ -->
+  <section class="section bestsellers" id="bestsellers">
+    <div class="container">
+      <div class="section-head reveal center">
+        <span class="eyebrow">Best Sellers</span>
+        <h2>The desserts everyone returns for.</h2>
+      </div>
+      <div class="product-grid">
+        <article class="product-card reveal">
+          <div class="product-img"><img src="assets/images/cake-raspberry.jpg" alt="Raspberry chocolate layer cake" loading="lazy" /></div>
+          <span class="price">$12</span>
+          <h3>Raspberry Chocolate Layer Cake</h3>
+          <p>Triple raspberry decadence</p>
+          <button class="btn btn-soft full">Add to Box</button>
+        </article>
+        <article class="product-card reveal">
+          <div class="product-img"><img src="assets/images/tart-brulee.jpg" alt="Crème brûlée tart" loading="lazy" /></div>
+          <span class="price">$15</span>
+          <h3>Crème Brûlée Tart</h3>
+          <p>Classic vanilla bean tart</p>
+          <button class="btn btn-soft full">Add to Box</button>
+        </article>
+        <article class="product-card reveal">
+          <div class="product-img"><img src="assets/images/cake-strawberry.jpg" alt="Strawberry cream layer cake" loading="lazy" /></div>
+          <span class="price">$14</span>
+          <h3>Strawberry Cream Layer Cake</h3>
+          <p>Heavenly strawberry sponge</p>
+          <button class="btn btn-soft full">Add to Box</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ OUR STORY ============ -->
+  <section class="section story" id="story">
+    <div class="wave wave-top" aria-hidden="true">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,60 C240,120 480,0 720,40 C960,80 1200,120 1440,40 L1440,0 L0,0 Z"/></svg>
+    </div>
+    <div class="container story-grid">
+      <div class="story-text reveal">
+        <span class="eyebrow">Our Story</span>
+        <h2>Handcrafted with love, every single morning.</h2>
+        <p>Velora began as a single oven in a sun-soaked corner shop. A decade later, our heritage hasn't changed: small batches, organic flour, and the unhurried hands of pastry chefs who care.</p>
+        <ul class="story-features">
+          <li><span class="dot"></span> Sourced from local organic farms</li>
+          <li><span class="dot"></span> Slow-fermented, traditional methods</li>
+          <li><span class="dot"></span> Zero preservatives, ever</li>
+        </ul>
+        <div class="hero-cta">
+          <a href="#offer" class="btn btn-primary">Visit the bakery</a>
+        </div>
+      </div>
+      <div class="story-visual reveal">
+        <div class="story-photo">
+          <img src="assets/images/chef.jpg" alt="Pastry chef decorating a cake" loading="lazy" />
+        </div>
+        <div class="story-badge float-slow">
+          <strong>Since</strong>
+          <span>2014</span>
+        </div>
+      </div>
+    </div>
+    <div class="wave wave-bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,64 C240,120 480,0 720,40 C960,80 1200,120 1440,60 L1440,120 L0,120 Z"/></svg>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="section testimonials">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow">Kind Words</span>
+        <h2>Loved by our community.</h2>
+      </div>
+      <div class="t-grid">
+        <article class="t-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>"The best croissants in the city. Genuinely. I drive across town for these."</p>
+          <div class="t-author">
+            <div class="avatar" style="background:linear-gradient(135deg,#f5c1c8,#e8a3a3)">SR</div>
+            <div><strong>Sophie R.</strong><span>Food Critic</span></div>
+          </div>
+        </article>
+        <article class="t-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>"Their wedding cake was an absolute masterpiece. Guests are still talking."</p>
+          <div class="t-author">
+            <div class="avatar" style="background:linear-gradient(135deg,#cfe1c4,#a8c7a0)">DL</div>
+            <div><strong>David L.</strong><span>Local Customer</span></div>
+          </div>
+        </article>
+        <article class="t-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>"Every visit feels like a small celebration. The lemon tart is unforgettable."</p>
+          <div class="t-author">
+            <div class="avatar" style="background:linear-gradient(135deg,#f6d6b8,#e8b88a)">DR</div>
+            <div><strong>Daniela R.</strong><span>Local Customer</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SPECIAL OFFER ============ -->
+  <section class="section offer-wrap" id="offer">
+    <div class="container">
+      <div class="offer reveal">
+        <div class="offer-text">
+          <span class="eyebrow light">Limited Time</span>
+          <h2>Weekend Sweet Treat!</h2>
+          <p>Buy two macarons, get one free — every Saturday and Sunday.</p>
+          <a href="#" class="btn btn-cream">Claim Offer</a>
+        </div>
+        <div class="offer-floats" aria-hidden="true">
+          <span class="mac m1"></span>
+          <span class="mac m2"></span>
+          <span class="mac m3"></span>
+          <span class="mac m4"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY ============ -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow">Visual Feast</span>
+        <h2>A little peek inside the kitchen.</h2>
+      </div>
+      <div class="g-grid">
+        <div class="g-item tall reveal"><img src="assets/images/g-croissants.jpg" alt="Croissants" loading="lazy"/></div>
+        <div class="g-item reveal"><img src="assets/images/g-cake.jpg" alt="Cake slice" loading="lazy"/></div>
+        <div class="g-item reveal"><img src="assets/images/g-pastries.jpg" alt="Pastries" loading="lazy"/></div>
+        <div class="g-item reveal"><img src="assets/images/g-tart.jpg" alt="Berry tart" loading="lazy"/></div>
+        <div class="g-item reveal"><img src="assets/images/g-breads.jpg" alt="Breads" loading="lazy"/></div>
+        <div class="g-item tall reveal"><img src="assets/images/g-baguette.jpg" alt="Baguettes" loading="lazy"/></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#home" class="logo light">Velora</a>
+        <p class="muted">Cultivated baking artistry, served warm.</p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="#" aria-label="Pinterest">PT</a>
+        </div>
+      </div>
+      <div>
+        <h4>Visit Us</h4>
+        <p class="muted">12 Sycamore Street<br/>Galkin, NY 13146</p>
+        <p class="muted">Mon – Sun · 7am – 8pm</p>
+      </div>
+      <div>
+        <h4>Get in Touch</h4>
+        <p class="muted">+1 (335) 555-6255<br/>hello@velora.bakery</p>
+      </div>
+      <div>
+        <h4>Sweet Updates</h4>
+        <p class="muted">Get seasonal menus and offers in your inbox.</p>
+        <form class="newsletter" onsubmit="event.preventDefault(); this.querySelector('input').value=''; this.querySelector('button').textContent='Subscribed ✓';">
+          <input type="email" placeholder="Email address" required />
+          <button class="btn btn-primary sm" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 Velora Bakery. All Rights Reserved.</span>
+      <span>Crafted with love.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
